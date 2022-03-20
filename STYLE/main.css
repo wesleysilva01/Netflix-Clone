@@ -1,0 +1,117 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'arial', Times, serif;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Arial black', Times, serif;
+    font-size: 40px;
+}
+
+header nav a {
+    padding: 5px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #aaa;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*Tela principal*/
+h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color:#000;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../IMG/imagem-bg.jpg);
+    height: 400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ .button {
+    background-color: rgba(0,0,0, .50);
+   border: none;
+   color: #fff;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.8s ease all;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 75%;
+}
+
+.item img {
+    border-radius: 10px;
+}
+
+.box-filmes {
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
